@@ -1,0 +1,39 @@
+# IDE
+.idea/
+.vscode/
+
+# macOS
+**/.DS_Store
+
+# NPM
+node_modules
+packages/**/package-lock.json # ignore sub-package's lock file. All lock version should be included in base.
+dist/ # compiled JS files
+lib/
+*dist/
+
+# Cypress
+packages/e2e/cypress.env.json
+packages/e2e/cypress/downloads
+packages/e2e/cypress/screenshots
+packages/e2e/cypress/videos
+
+# Logging
+*.log
+*.log*
+
+# Environment
+.npm/
+
+# Build
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
